@@ -11,5 +11,6 @@ section#features {
   }
   .features__desc {
     font-size: 1.5rem;
+    @include limitLine(3);
   }
 }

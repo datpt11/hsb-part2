@@ -1,14 +1,26 @@
 .post {
   border-radius: 0.6rem;
   box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 0.1);
-  .post__image {
-    position: relative;
-  }
+
   .post__title {
     margin-top: 1.33rem;
     padding: 0 1.5rem;
   }
   .post__desc {
     padding: 0 1.5rem 1rem;
+  }
+}
+.post__image {
+  position: relative;
+  padding-top: mathSizeImage(209, 371);
+  // overflow: hidden;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
   }
 }
