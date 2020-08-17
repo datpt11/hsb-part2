@@ -1,0 +1,15 @@
+section#features {
+  margin-top: 3rem;
+  padding-bottom: 8rem;
+}
+.features {
+  padding: 3rem;
+  background-color: $white;
+  border-radius: 2rem;
+  .features__title {
+    margin-top: 3rem;
+  }
+  .features__desc {
+    font-size: 1.5rem;
+  }
+}

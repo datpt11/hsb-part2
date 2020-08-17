@@ -1,0 +1,56 @@
+// Import variable global
+
+//color
+$gray-base: #7e7fa0;
+$gray-3: #4f4b65;
+$primary: #616ae8;
+$success: #20e5a7;
+$white: #fff;
+$black: #2e2a41;
+$pink-base: #fcf3ec;
+$bg-left: #f0f9fe;
+$color-primary-2: #e7effb; //circle 4
+$color-primary-3: #e7faf9; // circle 2
+$color-tertiary-1: #fbe9e9; // circle 1
+$color-tertiary-2: #fcf3ec; // backgound-section 3
+$color-tertiary-3: #f5ecfd; // circle 3
+// Global text color
+$text-color: $gray-base;
+
+// Global header color
+$header-color: $black;
+
+//link-color
+$link-color: $gray-3;
+
+// Font family
+$font-primary: "Montserrat", sans-serif;
+$font-secondary: "Poppins", sans-serif;
+$font-tertiary: "Lora", sans-serif;
+// Font awesome
+$font-awesome: "FontAwesome";
+
+// font LineAwesome
+$font-LineAwesome: "LineAwesome";
+
+// Font weight
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-bolder: 900;
+
+$font-size-h2: 3rem;
+$font-size-h3: 2rem;
+$font-size-h4: 1.8rem;
+$font-size-h5: 1.5rem;
+$font-size-h6: 1.4rem;
+// Breakpoints
+$breakpoints: (
+  "tn": 320px,
+  "xs": 480px,
+  "sm": 768px,
+  "md": 992px,
+  "lg": 1200px,
+);

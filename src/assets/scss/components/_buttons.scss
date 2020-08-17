@@ -1,0 +1,15 @@
+.button {
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  font-weight: $font-bold;
+  color: $white;
+}
+.btn--primary {
+  background-color: $primary;
+}
+.btn--success {
+  background-color: $success;
+}

@@ -1,0 +1,53 @@
+.circle {
+  @include circle(7.9rem, 50%);
+}
+.circle--absolute {
+  position: absolute;
+  top: -3rem;
+  left: -4rem;
+  z-index: -321321;
+  @include media("<sm") {
+    top: 1.5rem;
+    left: -1.5rem;
+  }
+}
+.circle--big {
+  @include circle(9.2rem, 50%);
+}
+.circle--pink-2 {
+  background-color: #fdf1e7;
+}
+.circle--pink-3 {
+  background-color: $color-tertiary-1;
+}
+.circle--blue-2 {
+  background-color: $color-primary-3;
+}
+.circle--grey {
+  background-color: $color-tertiary-3;
+}
+.circle--charcoal-purple {
+  background-color: $color-primary-2;
+}
+
+.circle--opacity {
+  opacity: 0.2;
+}
+.circle--orange {
+  background-color: #fd9b9b;
+}
+.circle--violet-1 {
+  background-color: #b06bf1;
+}
+.circle--skyblue-1 {
+  background-color: #45ccdb;
+}
+.circle--blue-1 {
+  background-color: #545cf0;
+}
+.circle--pink-1 {
+  background-color: #f16bac;
+}
+.circle--green-1 {
+  background-color: #48de57;
+}

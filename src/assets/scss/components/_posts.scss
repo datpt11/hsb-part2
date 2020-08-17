@@ -1,0 +1,14 @@
+.post {
+  border-radius: 0.6rem;
+  box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 0.1);
+  .post__image {
+    position: relative;
+  }
+  .post__title {
+    margin-top: 1.33rem;
+    padding: 0 1.5rem;
+  }
+  .post__desc {
+    padding: 0 1.5rem 1rem;
+  }
+}

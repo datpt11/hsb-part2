@@ -1,0 +1,13 @@
+.heading {
+  margin-bottom: 10rem;
+}
+.heading__title--bold {
+  font-weight: $font-bold;
+}
+.heading__title--primary {
+  color: #5e68f9;
+}
+.heading__desc {
+  max-width: 60rem;
+  margin: 0 auto;
+}

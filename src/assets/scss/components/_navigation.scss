@@ -1,0 +1,16 @@
+.menu {
+  padding: 2.2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__list {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  @include media("<768px") {
+    display: none;
+  }
+}
+.menu__item {
+  padding: 0.5rem 3.65rem;
+}

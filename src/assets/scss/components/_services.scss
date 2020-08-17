@@ -1,0 +1,14 @@
+.services {
+  @include media("<sm") {
+    padding: 2rem;
+  }
+  .services__title {
+    margin: 2.6rem 0 2.9rem;
+  }
+  .services__desc {
+    font-size: 1.5rem;
+  }
+}
+.services--relative {
+  position: relative;
+}

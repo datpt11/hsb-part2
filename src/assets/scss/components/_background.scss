@@ -1,0 +1,36 @@
+.background {
+  background-color: $color-tertiary-2;
+  position: absolute;
+  z-index: -99999;
+}
+.background--left {
+  bottom: 0;
+  left: 0;
+  height: 75%;
+  width: 40%;
+  background-color: #f0f9fe;
+  border-radius: 0 4rem 4rem 0;
+  @include media("<sm") {
+    width: 100%;
+  }
+}
+.background--right {
+  bottom: 0;
+  right: 0;
+  height: 75%;
+  width: 40%;
+  background-color: #f0f9fe;
+  border-radius: 4rem 0 0 4rem;
+  @include media("<sm") {
+    width: 100%;
+  }
+}
+.background--full {
+  top: 0;
+  right: 2rem;
+  bottom: 0;
+  left: 2rem;
+  height: 100%;
+  background-color: #fcf3ec;
+  border-radius: 4rem;
+}

@@ -1,0 +1,56 @@
+/* Typography */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: $font-normal;
+  font-family: $font-secondary;
+  color: $text-color;
+  font-size: 1.6rem;
+}
+ul li {
+  list-style: none;
+
+  font-weight: $font-normal;
+}
+a {
+  color: $link-color !important;
+  text-decoration: none;
+  &:hover {
+    color: $link-color !important;
+    text-decoration: none;
+  }
+}
+
+a {
+  outline: none;
+}
+h2 {
+  font-size: $font-size-h2;
+  font-weight: $font-normal;
+  color: $header-color;
+}
+h3 {
+  font-size: $font-size-h3;
+  font-weight: $font-semibold;
+  color: $header-color;
+}
+h5 {
+  font-weight: $font-bold;
+  color: $header-color;
+  font-size: $font-size-h5;
+}
+h6 {
+  font-weight: $font-bold;
+  color: $header-color;
+  font-size: $font-size-h6;
+}
+h4 {
+  font-size: $font-size-h4;
+  color: $header-color;
+  font-weight: $font-semibold;
+}
+section {
+  padding-top: 8rem;
+  position: relative;
+}
