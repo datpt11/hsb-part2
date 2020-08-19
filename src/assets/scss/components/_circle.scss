@@ -8,10 +8,10 @@
   left: 0;
   transform: translate(-50%, -50%);
   z-index: -321321;
-  @include media("<sm") {
-    top: 1.5rem;
-    left: -1.5rem;
-  }
+  // @include media("<sm") {
+  //   top: 1.5rem;
+  //   left: -1.5rem;
+  // }
 }
 .circle--big {
   @include circle(9.2rem, 50%);
