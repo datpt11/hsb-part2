@@ -1,10 +1,12 @@
 .circle {
   @include circle(7.9rem, 50%);
 }
+
 .circle--absolute {
   position: absolute;
-  top: -3rem;
-  left: -4rem;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
   z-index: -321321;
   @include media("<sm") {
     top: 1.5rem;
@@ -30,24 +32,35 @@
   background-color: $color-primary-2;
 }
 
-.circle--opacity {
+.circle--relative {
+  position: relative;
+  z-index: 1;
+}
+.circle--after::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
   opacity: 0.2;
+  background-color: currentColor;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 .circle--orange {
-  background-color: #fd9b9b;
+  color: rgba(253, 155, 155, 1);
 }
 .circle--violet-1 {
-  background-color: #b06bf1;
+  color: rgba(176, 107, 241, 1);
 }
 .circle--skyblue-1 {
-  background-color: #45ccdb;
+  color: rgba(60, 176, 189, 1);
 }
 .circle--blue-1 {
-  background-color: #545cf0;
+  color: rgba(84, 92, 240, 1);
 }
 .circle--pink-1 {
-  background-color: #f16bac;
+  color: rgba(241, 107, 172, 1);
 }
 .circle--green-1 {
-  background-color: #48de57;
+  color: rgba(72, 222, 87, 1);
 }
